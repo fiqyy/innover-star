@@ -25,7 +25,7 @@ const Header = () => {
     return (
         <nav className={`header ${isScrolled ? 'scrolled' : ''}`}>
             <div className="container nav-container">
-                <a href="#" className="logo">
+                <a href="/" className="logo">
                     <img src="/logo.png" alt="Innover Star Logo" className="logo-img" style={{ height: '50px', width: 'auto' }} />
                     <span>Innover Star</span>
                 </a>

@@ -18,7 +18,7 @@ const Footer = () => {
                     </p>
                     <div className="social-links">
                         {[<Linkedin size={20} />, <Facebook size={20} />, <Instagram size={20} />].map((icon, i) => (
-                            <a key={i} href="#" className="social-icon">
+                            <a key={i} href="/" className="social-icon">
                                 {icon}
                             </a>
                         ))}
