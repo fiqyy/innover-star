@@ -1,27 +1,23 @@
-import logo from './logo.svg';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Services from './components/Services';
+import Products from './components/Products';
+import Features from './components/Features';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
   return (
-//     <div className="App">
-//       <div style={{ width: '1080px', height: '1080px', position: 'relative' }}>
-//         <GradientBlinds
-//           gradientColors={["#0433ff","#5227FF"]}
-//           angle={130}
-//           noise={0.3}
-//           blindCount={16}
-//           blindMinWidth={60}
-//           mouseDampening={0.15}
-//           mirrorGradient={false}
-//           spotlightRadius={0.5}
-//           spotlightSoftness={1}
-//           spotlightOpacity={1}
-//           distortAmount={0}
-//           shineDirection="left"
-//         />
-// </div>
-    // </div>
-    <h1>hi</h1>
+    <div className="App">
+      <Header />
+      <main>
+        <Hero />
+        <Services />
+        <Products />
+        <Features />
+      </main>
+      <Footer />
+    </div>
   );
 }
 
