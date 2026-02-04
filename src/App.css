@@ -411,6 +411,10 @@
     display: none;
   }
 
+  .logo span {
+    display: none;
+  }
+
   .mobile-toggle {
     display: block;
   }
